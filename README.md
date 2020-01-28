@@ -9,11 +9,12 @@ $ npm install express-input
 
 ## Usage
 ```javascript
-const input = require('express-input')
-app.use(input())
+const expressInput = require('express-input')
+app.use(expressInput())
 ```
 ```javascript
 const param1 = req.input('param1', 'defaultValue')
+const params = req.input()
 ```
 
 ## Licence

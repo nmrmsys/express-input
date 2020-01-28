@@ -1,6 +1,6 @@
 {
   "name": "express-input",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "expressjs request helper laravel input method",
   "main": "index.js",
   "scripts": {
@@ -22,6 +22,7 @@
   },
   "homepage": "https://github.com/nmrmsys/express-input#readme",
   "dependencies": {
+    "lodash.defaults": "^4.2.0",
     "lodash.get": "^4.4.2"
   },
   "devDependencies": {}
